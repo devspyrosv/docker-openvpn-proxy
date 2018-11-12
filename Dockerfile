@@ -5,7 +5,7 @@
 # Using my devspyrosv/openvpn-client image as base
 # CMD has been defined in base image
 
-FROM devspyrosv/docker-openvpn-client:latest
+FROM devspyrosv/docker-openvpn-client:1.0
 MAINTAINER devspyrosv <spyros.vlachos@outlook.com>
 
 # Evironment variables
