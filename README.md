@@ -16,7 +16,7 @@ $ docker run --privileged  -d \
               -p 1022:22 \
               -p 3128:3128 \
               --dns 1.1.1.1 \
-              devspyrosv/openvpn-proxy
+              devspyrosv/openvpn-proxy:1.0
 ```
 
 Now you can connect your application to a proxy `localhost:3128`.
