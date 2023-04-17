@@ -2,11 +2,11 @@
 #
 # Version 0.0.1
 #
-# Using my dceschmidt/openvpn-client image as base
+# Using my devspyrosv/openvpn-client image as base
 # CMD has been defined in base image
 
-FROM docker-openvpn-client-devspyrosv:latest
-MAINTAINER Diego Schmidt <dceschmidt@gmail.com>
+FROM devspyrosv/docker-openvpn-client:latest
+MAINTAINER devspyrosv
 
 # Evironment variables
 ENV DEBIAN_FRONTEND=noninteractive
